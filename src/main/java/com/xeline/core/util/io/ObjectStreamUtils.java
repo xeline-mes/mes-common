@@ -9,7 +9,7 @@ import java.io.OutputStream;
 import com.xeline.core.io.ClassLoaderAwareObjectInputStream;
 
 /**
- * ObjectInputStreamに関するユーティリティです。
+ * 
  *
  * @author xenron
  * @since 1.0

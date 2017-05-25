@@ -1,7 +1,7 @@
 package com.xeline.core.util.io;
 
 /**
- * オブジェクトのプロパティコピーに関するユーティリティです。
+ * 
  *
  * @author xenron
  * @since 1.0
@@ -9,13 +9,6 @@ package com.xeline.core.util.io;
  */
 public class CopyUtils {
 
-  // /**
-  // * @see #asMapExcludes(Object, CharSequence...)
-  // *
-  // * @param o コピー元となるオブジェクト
-  // * @param propertyNames 除外するプロパティ名
-  // * @return オブジェクトのプロパティをコピーした{@link Map}
-  // */
   // public static Map<String, Object> asMap(Object o, CharSequence... propertyNames) {
   // return asMapExcludes(o, propertyNames);
   // }

@@ -7,7 +7,7 @@ import java.util.zip.GZIPInputStream;
 import java.util.zip.GZIPOutputStream;
 
 /**
- * GZIPに関するユーティリティです。
+ * 
  *
  * @author xenron
  * @since 1.0

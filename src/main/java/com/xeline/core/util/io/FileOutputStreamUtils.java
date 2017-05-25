@@ -7,7 +7,7 @@ import java.io.IOException;
 import com.xeline.core.exception.IORuntimeException;
 
 /**
- * FileOutputStreamに関するユーティリティです。
+ * 
  *
  * @author xenron
  * @since 1.0

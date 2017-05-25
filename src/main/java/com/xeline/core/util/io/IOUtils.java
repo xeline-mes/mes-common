@@ -4,7 +4,7 @@ import java.io.Closeable;
 import java.io.IOException;
 
 /**
- * IO（入出力）に関するユーティティです。
+ * 
  *
  * @author xenron
  * @since 1.0
