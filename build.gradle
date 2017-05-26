@@ -1,6 +1,8 @@
 apply plugin: 'java'
 apply plugin: 'eclipse-wtp'
+apply plugin: 'idea'
 apply plugin: 'spring-boot'
+apply plugin: 'checkstyle'
 
 sourceCompatibility = JavaVersion.VERSION_1_8
 targetCompatibility = JavaVersion.VERSION_1_8
@@ -68,4 +70,8 @@ eclipse {
 //    gradleVersion = '2.0'
 //}
 
+task dist(dependsOn: assemble) {
+        group = 'Distribution'
+        description = 'Builds -dist, -docs distribution archives.'
+}
 

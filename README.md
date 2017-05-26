@@ -14,5 +14,9 @@ http://ftp.tsukuba.wide.ad.jp/software/apache/maven/maven-3/3.5.0/binaries/apach
 gradle compileJava
 
 mvn clean
+mvn clean package
+mvn test
+mvn eclipse:eclipse
+mvn idea:idea
 
 
