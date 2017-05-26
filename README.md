@@ -17,7 +17,9 @@ gradle idea
 
 mvn clean
 mvn clean package
+mvn clean install
 mvn test
+
 mvn eclipse:eclipse
 mvn idea:idea
 

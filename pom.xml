@@ -399,8 +399,17 @@
 
     </plugins>
   </build>
-  
-  
+
+  <!--
+  <distributionManagement>
+    <snapshotRepository>
+      <id>muji-nexus-snapshot</id>
+      <name>muji-nexus-snapshot</name>
+      <url>${url.snapshot}</url>
+    </snapshotRepository>
+  </distributionManagement>
+  -->
+
   <pluginRepositories>
     <pluginRepository>
       <id>mc-release</id>
